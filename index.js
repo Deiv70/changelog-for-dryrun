@@ -20,7 +20,7 @@ async function verifyConditions(pluginConfig, context) {
   verified = true;
 }
 
-async function prepare(pluginConfig, context) {
+async function generateNotes(pluginConfig, context) {
   if (!verified) {
     await verifyChangelog(pluginConfig);
     verified = true;
@@ -29,4 +29,4 @@ async function prepare(pluginConfig, context) {
   await prepareChangelog(pluginConfig, context);
 }
 
-module.exports = {verifyConditions, prepare};
+module.exports = {verifyConditions, generateNotes};
