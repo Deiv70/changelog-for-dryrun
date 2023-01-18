@@ -1,8 +1,8 @@
 {
-  "name": "@semantic-release/changelog",
-  "description": "semantic-release plugin to create or update a changelog file",
+  "name": "@semantic-release/changelog-for-dryrun",
+  "description": "semantic-release plugin to create or update a changelog file on dryRun",
   "version": "0.0.0-development",
-  "author": "Pierre Vanduynslager (https://github.com/pvdlg)",
+  "author": "Deiv70 (https://github.com/Deiv70)",
   "ava": {
     "files": [
       "test/**/*.test.js"
@@ -38,7 +38,7 @@
     "lib",
     "index.js"
   ],
-  "homepage": "https://github.com/semantic-release/changelog#readme",
+  "homepage": "https://github.com/Deiv70/changelog-for-dryRun#readme",
   "keywords": [
     "changelog",
     "conventional-changelog",
